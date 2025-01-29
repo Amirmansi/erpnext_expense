@@ -51,7 +51,8 @@ class ExpenseEntry(Document):
 						"credit": 0,
 						"cost_center": account.cost_center,
 						"remarks": account.notes,
-						"against": self.mode_of_payment_account
+						"against": self.mode_of_payment_account,
+						"branch": account.branch
 					},
 				)
 			)
@@ -65,7 +66,9 @@ class ExpenseEntry(Document):
 					"debit": 0,
 					"credit": self.total_expense,
 					"remarks": self.remarks,
-					"against": ", ".join(list(set(accounts_debited)))
+					"against": ", ".join(list(set(accounts_debited))),
+					"cost_center": self.cost_center,
+					"branch": self.custom_branch
 				},
 			)
 		)

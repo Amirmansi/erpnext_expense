@@ -13,6 +13,15 @@ frappe.ui.form.on("Expense Entry", {
 				}
 			}
 		}
+
+        frm.fields_dict["cost_center"].get_query = function(doc) {
+			return {
+				filters: {
+					"is_group": 0,
+					'company': frm.doc.company
+				}
+			}
+		}
     },
     refresh(frm) {
         if (frm.doc.docstatus === 1) {
@@ -31,13 +40,23 @@ frappe.ui.form.on("Expense Entry", {
                 },
                 __("View")
             );
-        }
+        }        
     },
 	mode_of_payment(frm) {
 		erpnext.accounts.pos.get_payment_mode_account(frm, frm.doc.mode_of_payment, function(account) {
 			frm.set_value("mode_of_payment_account", account);
 		})
 	},
+
+    company: function(frm){
+        const branch_hidden = frm.doc.company == "Ellora Group F32"? 0 : 1 ;
+
+        frm.fields_dict.accounts.grid.update_docfield_property(
+            "branch",
+            "hidden",
+            branch_hidden
+        );
+    }
 });
 
 frappe.ui.form.on('Expense Entry Detail', {
@@ -71,5 +90,10 @@ frappe.ui.form.on('Expense Entry Detail', {
             return
 
         }
-	}
+	},
+    accounts_add: function(frm, cdt, cdn) {
+		let row = locals[cdt][cdn];
+        row.branch = frm.doc.custom_branch
+        frm.refresh_field("accounts");
+    }
 });
