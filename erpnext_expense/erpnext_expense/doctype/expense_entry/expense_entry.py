@@ -41,7 +41,7 @@ class ExpenseEntry(Document):
 		self.company_currency = erpnext.get_company_currency(self.company)
 
 		gl_entries = []
-
+		accounts_debited = []
 		for account in self.accounts:
 			gl_entries.append(
 				self.get_gl_dict(
@@ -51,9 +51,12 @@ class ExpenseEntry(Document):
 						"credit": 0,
 						"cost_center": account.cost_center,
 						"remarks": account.notes,
+						"against": self.mode_of_payment_account
 					},
 				)
 			)
+			accounts_debited.append(account.expense_account)
+
 
 		gl_entries.append(
 			self.get_gl_dict(
@@ -62,6 +65,7 @@ class ExpenseEntry(Document):
 					"debit": 0,
 					"credit": self.total_expense,
 					"remarks": self.remarks,
+					"against": ", ".join(list(set(accounts_debited)))
 				},
 			)
 		)
