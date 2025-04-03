@@ -47,16 +47,6 @@ frappe.ui.form.on("Expense Entry", {
 			frm.set_value("mode_of_payment_account", account);
 		})
 	},
-
-    company: function(frm){
-        const branch_hidden = frm.doc.company == "Ellora Group F32"? 0 : 1 ;
-
-        frm.fields_dict.accounts.grid.update_docfield_property(
-            "branch",
-            "hidden",
-            branch_hidden
-        );
-    }
 });
 
 frappe.ui.form.on('Expense Entry Detail', {
@@ -90,10 +80,5 @@ frappe.ui.form.on('Expense Entry Detail', {
             return
 
         }
-	},
-    accounts_add: function(frm, cdt, cdn) {
-		let row = locals[cdt][cdn];
-        row.branch = frm.doc.custom_branch
-        frm.refresh_field("accounts");
-    }
+	}
 });

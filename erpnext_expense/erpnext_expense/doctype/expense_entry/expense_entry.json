@@ -24,8 +24,7 @@
   "cost_center",
   "remarks",
   "column_break_iobq",
-  "total_expense",
-  "custom_branch"
+  "total_expense"
  ],
  "fields": [
   {
@@ -134,19 +133,12 @@
    "label": "Cost Center",
    "options": "Cost Center",
    "reqd": 1
-  },
-  {
-   "depends_on": "eval: doc.company == \"Ellora Group F32\"",
-   "fieldname": "custom_branch",
-   "fieldtype": "Link",
-   "label": "Branch",
-   "options": "Branch"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-03 10:44:15.679990",
+ "modified": "2025-04-03 12:35:51.091529",
  "modified_by": "Administrator",
  "module": "ERPNext Expense",
  "name": "Expense Entry",

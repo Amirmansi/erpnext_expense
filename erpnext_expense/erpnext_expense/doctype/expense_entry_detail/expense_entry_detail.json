@@ -12,8 +12,7 @@
   "amount",
   "cost_center",
   "supplier",
-  "ref_no",
-  "branch"
+  "ref_no"
  ],
  "fields": [
   {
@@ -73,19 +72,12 @@
    "in_list_view": 1,
    "label": "Expense Type",
    "options": "Expense Type"
-  },
-  {
-   "fieldname": "branch",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Branch",
-   "options": "Branch"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-22 17:47:04.483965",
+ "modified": "2025-04-03 12:35:35.259787",
  "modified_by": "Administrator",
  "module": "ERPNext Expense",
  "name": "Expense Entry Detail",
