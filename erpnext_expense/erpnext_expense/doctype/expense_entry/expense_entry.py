@@ -43,6 +43,7 @@ class ExpenseEntry(Document):
 		gl_entries = []
 		accounts_debited = []
 		for account in self.accounts:
+			account_type = frappe.get_value("Account", account.expense_account, "account_type")
 			gl_entries.append(
 				self.get_gl_dict(
 					{
@@ -52,8 +53,8 @@ class ExpenseEntry(Document):
 						"cost_center": account.cost_center,
 						"remarks": account.notes,
 						"against": self.mode_of_payment_account,
-						"party_type": "Supplier" if account.supplier else None,
-						"party": account.supplier if account.supplier else None
+						"party_type": "Supplier" if account.supplier and (not account_type or account_type in ["Receivable", "Payable", "Equity"]) else None,
+					    "party": account.supplier if account.supplier and (not account_type or account_type in ["Receivable", "Payable", "Equity"]) else None
 					},
 				)
 			)
