@@ -227,3 +227,11 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+user_data_fields = [
+    {
+        "doctype": "Workspace",
+        "filters": {
+            "module": "ERPNext Expense"
+        }
+    }
+]

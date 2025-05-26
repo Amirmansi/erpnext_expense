@@ -1,0 +1,467 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"PB2lwYfvpr\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"os_EZ6P805\",\"type\":\"card\",\"data\":{\"card_name\":\"Accounting Report\",\"col\":4}},{\"id\":\"CupuZQJAr0\",\"type\":\"card\",\"data\":{\"card_name\":\"Sales Reports\",\"col\":4}},{\"id\":\"PVNYKShW5n\",\"type\":\"card\",\"data\":{\"card_name\":\"Purchase Analytics\",\"col\":4}},{\"id\":\"bRg8WftZBi\",\"type\":\"card\",\"data\":{\"card_name\":\"Customer Reports\",\"col\":4}},{\"id\":\"D3FuiHD11m\",\"type\":\"card\",\"data\":{\"card_name\":\"Supplier Reports\",\"col\":4}},{\"id\":\"zg7l0tO6Ud\",\"type\":\"card\",\"data\":{\"card_name\":\"Stock Report\",\"col\":4}}]",
+ "creation": "2025-05-26 14:22:57.846561",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fal fa-folder",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "General Reports",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Accounts Payable",
+   "link_count": 0,
+   "link_to": "Accounts Payable",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Accounts Payable Summary",
+   "link_count": 0,
+   "link_to": "Accounts Payable Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Accounts Receivable",
+   "link_count": 0,
+   "link_to": "Accounts Receivable",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Dimension-wise Accounts Balance Report",
+   "link_count": 0,
+   "link_to": "Dimension-wise Accounts Balance Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock and Account Value Comparison",
+   "link_count": 0,
+   "link_to": "Stock and Account Value Comparison",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Database Storage Usage By Tables",
+   "link_count": 0,
+   "link_to": "Database Storage Usage By Tables",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Invoice Trends",
+   "link_count": 0,
+   "link_to": "Sales Invoice Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Analytics",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Order Analysis",
+   "link_count": 0,
+   "link_to": "Sales Order Analysis",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Order Trends",
+   "link_count": 0,
+   "link_to": "Sales Order Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Delivery Note Trends",
+   "link_count": 0,
+   "link_to": "Delivery Note Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Reports",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Analytics",
+   "link_count": 0,
+   "link_to": "Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Order Analysis",
+   "link_count": 0,
+   "link_to": "Sales Order Analysis",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Invoice Trends",
+   "link_count": 0,
+   "link_to": "Sales Invoice Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Register",
+   "link_count": 0,
+   "link_to": "Sales Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Sales Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Sales Order Trends",
+   "link_count": 0,
+   "link_to": "Sales Order Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Territory-wise Sales",
+   "link_count": 0,
+   "link_to": "Territory-wise Sales",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Analytics",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Analytics",
+   "link_count": 0,
+   "link_to": "Purchase Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Order Analysis",
+   "link_count": 0,
+   "link_to": "Purchase Order Analysis",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice Trends",
+   "link_count": 0,
+   "link_to": "Purchase Invoice Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Purchase Invoice",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Supplier-Wise Sales Analytics",
+   "link_count": 0,
+   "link_to": "Supplier-Wise Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Production Planning Report",
+   "link_count": 0,
+   "link_to": "Production Planning Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Purchase Order Trends",
+   "link_count": 0,
+   "link_to": "Purchase Order Trends",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer Reports",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Customer Acquisition and Loyalty",
+   "link_count": 0,
+   "link_to": "Customer Acquisition and Loyalty",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Customer Credit Balance",
+   "link_count": 0,
+   "link_to": "Customer Credit Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Customer Ledger Summary",
+   "link_count": 0,
+   "link_to": "Customer Ledger Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Customer-wise Item Price",
+   "link_count": 0,
+   "link_to": "Customer-wise Item Price",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Customers Without Any Sales Transactions",
+   "link_count": 0,
+   "link_to": "Customers Without Any Sales Transactions",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier Reports",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Supplier Ledger Summary",
+   "link_count": 0,
+   "link_to": "Supplier Ledger Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Supplier Quotation Comparison",
+   "link_count": 0,
+   "link_to": "Supplier Quotation Comparison",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Supplier-Wise Sales Analytics",
+   "link_count": 0,
+   "link_to": "Supplier-Wise Sales Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Material Requests for which Supplier Quotations are not created",
+   "link_count": 0,
+   "link_to": "Material Requests for which Supplier Quotations are not created",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Stock Report",
+   "link_count": 7,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Ageing",
+   "link_count": 0,
+   "link_to": "Stock Ageing",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Analytics",
+   "link_count": 0,
+   "link_to": "Stock Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Balance",
+   "link_count": 0,
+   "link_to": "Stock Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Ledger",
+   "link_count": 0,
+   "link_to": "Stock Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Ledger Invariant Check",
+   "link_count": 0,
+   "link_to": "Stock Ledger Invariant Check",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Projected Qty",
+   "link_count": 0,
+   "link_to": "Stock Projected Qty",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Stock Qty vs Serial No Count",
+   "link_count": 0,
+   "link_to": "Stock Qty vs Serial No Count",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-05-26 14:22:57.846561",
+ "modified_by": "Administrator",
+ "module": "ERPNext Expense",
+ "name": "General Reports",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Accounting",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [],
+ "title": "General Reports"
+}
