@@ -1,0 +1,163 @@
+{
+  "charts": [],
+  "content": "[{\"id\":\"header_law\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Law Management</span>\",\"col\":12}},{\"id\":\"shortcut_client_request\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Request\",\"col\":3}},{\"id\":\"shortcut_history\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"History\",\"col\":3}},{\"id\":\"shortcut_contact_person_details\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Contact Person Details\",\"col\":3}},{\"id\":\"shortcut_suspects\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Suspects\",\"col\":3}},{\"id\":\"shortcut_perpetrators\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Perpetrators\",\"col\":3}},{\"id\":\"shortcut_victims\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Victims\",\"col\":3}},{\"id\":\"shortcut_court\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Court\",\"col\":3}},{\"id\":\"shortcut_article_law\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Article Law\",\"col\":3}},{\"id\":\"shortcut_act\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Act\",\"col\":3}},{\"id\":\"shortcut_client_services\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Client Services\",\"col\":3}},{\"id\":\"shortcut_certificates\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Certificates\",\"col\":3}},{\"id\":\"shortcut_universities\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Universities\",\"col\":3}},{\"id\":\"shortcut_institutes\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Institutes\",\"col\":3}},{\"id\":\"shortcut_degrees\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Degrees\",\"col\":3}},{\"id\":\"shortcut_practice_area\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Practice Area\",\"col\":3}},{\"id\":\"shortcut_opposition\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Opposition\",\"col\":3}},{\"id\":\"shortcut_judge_details\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Judge Details\",\"col\":3}},{\"id\":\"shortcut_matter\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Matter\",\"col\":3}},{\"id\":\"shortcut_categories\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Categories\",\"col\":3}}]",
+  "creation": "2025-05-26 14:30:00.000000",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "scale",
+  "idx": 0,
+  "indicator_color": "blue",
+  "is_hidden": 0,
+  "label": "Law Management",
+  "links": [],
+  "modified": "2025-05-26 14:30:00.000000",
+  "modified_by": "Administrator",
+  "module": "Law",
+  "name": "Law Management",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "Home",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [],
+  "sequence_id": 9.0,
+  "shortcuts": [
+    {
+      "label": "Client Request",
+      "link_to": "Client Request",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "History",
+      "link_to": "History",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Contact Person Details",
+      "link_to": "Contact Person Details",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Suspects",
+      "link_to": "Suspects",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Perpetrators",
+      "link_to": "Perpetrators",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Victims",
+      "link_to": "Victims",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Court",
+      "link_to": "Court",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Article Law",
+      "link_to": "Article Law",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Act",
+      "link_to": "Act",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Client Services",
+      "link_to": "Client Services",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Certificates",
+      "link_to": "Certificates",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Universities",
+      "link_to": "Universities",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Institutes",
+      "link_to": "Institutes",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Degrees",
+      "link_to": "Degrees",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Practice Area",
+      "link_to": "Practice Area",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Opposition",
+      "link_to": "Opposition",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Judge Details",
+      "link_to": "Judge Details",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Matter",
+      "link_to": "Matter",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    },
+    {
+      "label": "Categories",
+      "link_to": "Categories",
+      "type": "DocType",
+      "color": "Grey",
+      "doc_view": "List"
+    }
+  ],
+  "title": "Law Management"
+}
