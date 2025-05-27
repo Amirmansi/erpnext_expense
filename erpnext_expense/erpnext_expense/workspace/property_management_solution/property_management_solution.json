@@ -1,0 +1,81 @@
+{
+  "charts": [],
+  "content": "[\
+    {\"id\":\"header_main\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">🏢 Property Management</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_property\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property\",\"col\":3}},\
+    {\"id\":\"shortcut_unit_type\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Unit Type\",\"col\":3}},\
+    {\"id\":\"shortcut_apartment_status\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Apartment Status\",\"col\":3}},\
+    {\"id\":\"shortcut_lease\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lease\",\"col\":3}},\
+    {\"id\":\"shortcut_exit\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Exit\",\"col\":3}},\
+    {\"id\":\"shortcut_insurance\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Insurance\",\"col\":3}},\
+    {\"id\":\"header_tools\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\">🔧 Tools & Equipment</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_tool_item\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tool Item Record\",\"col\":3}},\
+    {\"id\":\"shortcut_tool_item_set\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tool Item Set\",\"col\":3}},\
+    {\"id\":\"shortcut_meter\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meter\",\"col\":3}},\
+    {\"id\":\"shortcut_meter_reading\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Meter Reading\",\"col\":3}},\
+    {\"id\":\"header_checklist\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\">📝 Checklists</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_daily_checklist\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Checklist\",\"col\":3}},\
+    {\"id\":\"shortcut_checkup_area\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Checklist Checkup Area\",\"col\":3}},\
+    {\"id\":\"shortcut_security_deposit\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Security Deposit Details\",\"col\":3}},\
+    {\"id\":\"header_security\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\">🛡️ Security & Attendance</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_guard_shift\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Guard Shift\",\"col\":3}},\
+    {\"id\":\"shortcut_security_attendance\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Security Attendance\",\"col\":3}},\
+    {\"id\":\"shortcut_outsourcing_attendance\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Outsourcing Attendance\",\"col\":3}},\
+    {\"id\":\"shortcut_outsourcing_shift\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Outsourcing Shift\",\"col\":3}},\
+    {\"id\":\"shortcut_outsourcing_category\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Outsourcing Category\",\"col\":3}},\
+    {\"id\":\"header_keys\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\">🔑 Key Management</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_key_set\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Key Set\",\"col\":3}},\
+    {\"id\":\"shortcut_key_set_detail\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Key Set Detail\",\"col\":3}},\
+    {\"id\":\"header_config\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h6\\\">⚙️ Configuration & Logs</span>\",\"col\":12}},\
+    {\"id\":\"shortcut_property_settings\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Management Settings\",\"col\":3}},\
+    {\"id\":\"shortcut_custom_error_log\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Custom Error Log\",\"col\":3}}\
+  ]",
+  "creation": "2025-05-26 15:10:00.000000",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "home",
+  "idx": 0,
+  "indicator_color": "blue",
+  "is_hidden": 0,
+  "label": "Property Management Solution",
+  "links": [],
+  "modified": "2025-05-26 15:10:00.000000",
+  "modified_by": "Administrator",
+  "module": "Property Management",
+  "name": "Property Management Solution",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "Home",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [],
+  "sequence_id": 11.0,
+  "shortcuts": [
+    { "label": "Tool Item Record", "link_to": "Tool Item Record", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Tool Item Set", "link_to": "Tool Item Set", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Meter", "link_to": "Meter", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Meter Reading", "link_to": "Meter Reading", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Property Management Settings", "link_to": "Property Management Settings", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Outsourcing Category", "link_to": "Outsourcing Category", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Key Set Detail", "link_to": "Key Set Detail", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Key Set", "link_to": "Key Set", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Outsourcing Shift", "link_to": "Outsourcing Shift", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Outsourcing Attendance", "link_to": "Outsourcing Attendance", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Security Attendance", "link_to": "Security Attendance", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Guard Shift", "link_to": "Guard Shift", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Custom Error Log", "link_to": "Custom Error Log", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Property", "link_to": "Property", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Daily Checklist", "link_to": "Daily Checklist", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Checklist Checkup Area", "link_to": "Checklist Checkup Area", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Security Deposit Details", "link_to": "Security Deposit Details", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Apartment Status", "link_to": "Apartment Status", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Lease", "link_to": "Lease", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Exit", "link_to": "Exit", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Insurance", "link_to": "Insurance", "type": "DocType", "color": "Grey", "doc_view": "List" },
+    { "label": "Unit Type", "link_to": "Unit Type", "type": "DocType", "color": "Grey", "doc_view": "List" }
+  ],
+  "title": "Property Management Solution"
+}
