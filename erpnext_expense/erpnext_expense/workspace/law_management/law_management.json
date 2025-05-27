@@ -32,41 +32,8 @@
       "color": "Grey",
       "doc_view": "List"
     },
-    {
-      "label": "History",
-      "link_to": "History",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
-    {
-      "label": "Contact Person Details",
-      "link_to": "Contact Person Details",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
-    {
-      "label": "Suspects",
-      "link_to": "Suspects",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
-    {
-      "label": "Perpetrators",
-      "link_to": "Perpetrators",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
-    {
-      "label": "Victims",
-      "link_to": "Victims",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
+    
+   
     {
       "label": "Court",
       "link_to": "Court",
@@ -74,20 +41,7 @@
       "color": "Grey",
       "doc_view": "List"
     },
-    {
-      "label": "Article Law",
-      "link_to": "Article Law",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
-    {
-      "label": "Act",
-      "link_to": "Act",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
+   
     {
       "label": "Client Services",
       "link_to": "Client Services",
@@ -130,13 +84,7 @@
       "color": "Grey",
       "doc_view": "List"
     },
-    {
-      "label": "Opposition",
-      "link_to": "Opposition",
-      "type": "DocType",
-      "color": "Grey",
-      "doc_view": "List"
-    },
+    
     {
       "label": "Judge Details",
       "link_to": "Judge Details",
