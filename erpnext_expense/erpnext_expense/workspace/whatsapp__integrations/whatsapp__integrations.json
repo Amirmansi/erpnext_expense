@@ -1,0 +1,77 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ecR5oAvzOW\",\"type\":\"header\",\"data\":{\"text\":\"<br>\",\"col\":12}},{\"id\":\"jkmb1__RFA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Message\",\"col\":3}},{\"id\":\"xPrdEUW9k-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Templates\",\"col\":3}},{\"id\":\"ei-5pLJYy0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Settings\",\"col\":3}},{\"id\":\"ne8sGka3rC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Notification\",\"col\":3}},{\"id\":\"ZleeJCklII\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Recipient List\",\"col\":3}},{\"id\":\"lJUeq9tZqC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Whatsapp Notification Log\",\"col\":3}}]",
+ "creation": "2025-05-08 01:05:31.512294",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fal fa-comment-dots",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "WhatsApp  Integrations",
+ "links": [],
+ "modified": "2025-05-27 12:24:57.452379",
+ "modified_by": "Administrator",
+ "module": "ERPNext Expense",
+ "name": "WhatsApp  Integrations",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Message",
+   "link_to": "WhatsApp Message",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Templates",
+   "link_to": "WhatsApp Templates",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Settings",
+   "link_to": "WhatsApp Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Notification",
+   "link_to": "WhatsApp Notification",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Recipient List",
+   "link_to": "WhatsApp Recipient List",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Whatsapp Notification Log",
+   "link_to": "WhatsApp Notification Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "WhatsApp  Integrations"
+}

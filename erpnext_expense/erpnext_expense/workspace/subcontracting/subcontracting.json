@@ -1,0 +1,54 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"6on7ZU6hPx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Subcontracting</span>\",\"col\":12}},{\"id\":\"ZEieOLwpcf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subcontracting Bom\",\"col\":3}},{\"id\":\"i9PljJ7qep\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subcontracting Order\",\"col\":3}},{\"id\":\"Rei0S2ylPp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Subcontracting Receipt\",\"col\":3}}]",
+ "creation": "2025-05-27 12:03:58.877117",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "fal fa-university",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Subcontracting",
+ "links": [],
+ "modified": "2025-05-27 12:24:52.862913",
+ "modified_by": "Administrator",
+ "module": "ERPNext Expense",
+ "name": "Subcontracting",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 41.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subcontracting Bom",
+   "link_to": "Subcontracting BOM",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subcontracting Order",
+   "link_to": "Subcontracting Order",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Subcontracting Receipt",
+   "link_to": "Subcontracting Receipt",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Subcontracting"
+}

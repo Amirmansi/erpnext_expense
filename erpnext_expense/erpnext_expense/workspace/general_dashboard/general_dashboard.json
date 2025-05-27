@@ -1,0 +1,113 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"GG-sgoYXRq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">General Financial  Dashboard</span>\",\"col\":12}},{\"id\":\"djCBbdiDDW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"gyH1juVy-D\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accounts Dashboard\",\"col\":3}},{\"id\":\"3lSR-QsA5G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Selling Dashboard\",\"col\":3}},{\"id\":\"B0rtnY_1QH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Buying Dashboard\",\"col\":3}},{\"id\":\"BipPd8OELs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock Dashboard\",\"col\":3}},{\"id\":\"DZ_IuZ7zqb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Dashboard\",\"col\":3}},{\"id\":\"zhcvrnOeQK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Dashboard\",\"col\":3}},{\"id\":\"-ZMyUBqbv_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manufacturing Dashboard\",\"col\":3}},{\"id\":\"oiLlbtTnuP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>\",\"col\":12}},{\"id\":\"H7pN6gFpX-\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h3\\\">HR&nbsp;Dashboard</span>\",\"col\":12}},{\"id\":\"gNH2W-p8Qh\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Human Resource Dashboard\",\"col\":3}},{\"id\":\"y4XfScmTBp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Lifecycle Dashboard\",\"col\":3}},{\"id\":\"gipchW6QMR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Recruitment Dashboard\",\"col\":3}},{\"id\":\"oUstujVV44\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Expense Claims Dashboard\",\"col\":3}},{\"id\":\"hhWTU6ZX1B\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance Dashboard\",\"col\":3}}]",
+ "creation": "2025-05-26 14:33:05.479595",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "General Dashboard",
+ "links": [],
+ "modified": "2025-05-27 12:24:49.391974",
+ "modified_by": "Administrator",
+ "module": "ERPNext Expense",
+ "name": "General Dashboard",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Accounts Dashboard",
+   "link_to": "Accounts",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Selling Dashboard",
+   "link_to": "Selling",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Buying Dashboard",
+   "link_to": "Buying",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock Dashboard",
+   "link_to": "Stock",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payroll Dashboard",
+   "link_to": "Payroll",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Project Dashboard",
+   "link_to": "Project",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Manufacturing Dashboard",
+   "link_to": "Manufacturing",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Human Resource Dashboard",
+   "link_to": "Human Resource",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Lifecycle Dashboard",
+   "link_to": "Employee Lifecycle",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Recruitment Dashboard",
+   "link_to": "Recruitment",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Expense Claims Dashboard",
+   "link_to": "Expense Claims",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Attendance Dashboard",
+   "link_to": "Attendance",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "General Dashboard"
+}
