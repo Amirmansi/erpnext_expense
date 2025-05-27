@@ -15,7 +15,7 @@
  "links": [],
  "modified": "2025-05-26 12:00:00.000000",
  "modified_by": "Administrator",
- "module": "Property",
+ "module": "Property Management Solution",
  "name": "Property Management",
  "number_cards": [],
  "owner": "Administrator",
@@ -47,7 +47,6 @@
   { "label": "Exit", "link_to": "Exit", "type": "DocType", "color": "Grey", "doc_view": "List" },
   { "label": "Insurance", "link_to": "Insurance", "type": "DocType", "color": "Grey", "doc_view": "List" },
   { "label": "Unit Type", "link_to": "Unit Type", "type": "DocType", "color": "Grey", "doc_view": "List" },
-  { "label": "Property Portal Page", "type": "URL", "url": "/property", "color": "Grey" }
  ],
  "title": "Property Management"
 }
