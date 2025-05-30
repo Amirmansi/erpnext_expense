@@ -11,12 +11,12 @@
  "idx": 0,
  "indicator_color": "",
  "is_hidden": 0,
- "label": "Property Management",
+ "label": "Property Management Solution",
  "links": [],
  "modified": "2025-05-26 12:00:00.000000",
  "modified_by": "Administrator",
  "module": "Property Management Solution",
- "name": "Property Management",
+ "name": "Property Management Solution",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -49,5 +49,5 @@
   { "label": "Unit Type", "link_to": "Unit Type", "type": "DocType", "color": "Grey", "doc_view": "List" },
     { "label": "Property Portal Page", "type": "URL", "url": "/property", "color": "Grey" }
  ],
- "title": "Property Management"
+ "title": "Property Management Solution"
 }
